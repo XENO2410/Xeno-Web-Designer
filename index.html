@@ -1,68 +1,325 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Xeno-Web Designer</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Tarun❄️🤍</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bubble.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-
-  <div class="Top-container">
-
-    <h1>I'm Xeno.</h1>
-    <img id="top-cloud" src="images/cloud.png" alt="cloud-png">
-    <h2 class="title">a Web Designer.</h2>
-    <img id="bottom-cloud" src="images/cloud.png" alt="cloud-png">
-    <img id="mountain" src="images/mountain1.png" alt="mountain-png" width="85%">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img src="https://cdn-icons-png.flaticon.com/512/4333/4333609.png" alt="/CSS-My site/images/profile.png" width="125px">
-      <h2>Hi.</h2>
-      <p class="intro">I'm a web designer / developer based in New Delhi, India. I have passion for Web design, Motion graphics & Video Editing.
+    <!-- bubble effect animation -->
+    <div class="bubbles" id="home">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="motion-graphics" src="https://cdn-icons-png.flaticon.com/512/3938/3938598.png" alt="/CSS-My site/images/Motion-graphics.png">
-        <h3>Motion Graphics</h3>
-        <p>I'm a beginner in this field &<br> constantly learning it to improve myself <br> &I Love to Create animations. </p>
-      </div>
-      <div class="skill-row">
-        <img class="web-d" src="https://cdn-icons-png.flaticon.com/512/2282/2282188.png" alt="/CSS-My site/images/webD.png">
-        <h3>Web Developer</h3>
-        <p>I'm an intermediate Web designer & <br> currently pursuing it as a passion.<br> I like to create websites that run.</p>
-      </div>
-      <div class="skill-row">
-        <img class="Video-editing" src="https://cdn-icons-png.flaticon.com/512/6348/6348571.png" alt="/CSS-My site/images/Video-editing.png">
-        <h3>Video Editor</h3>
-        <p>I'm an intermediate Video Editor. <br>I Love to make & edit videos.</p>
-      </div>
+    <nav data-aos="slide-down">
+        <input type="checkbox" id="check" onclick="opp()">
+        <label for="check" class="checkbtn" id="lab">
+    <i class="fas fa-bars"></i>
+  </label>
+            <label class="logo">XENO 🤍</label>
+        <ul id="ul">
+            <li onclick="fun()"><a class="active" href="#home">Home</a></li>
+            <li onclick="fun()"><a href="#about">About</a></li>
+            <li onclick="fun()"><a href="#skills">Skills</a></li>
+            <li onclick="fun()"><a href="#PORs">PORs</a></li>
+            <li onclick="fun()"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <div class="head">
+            <div class="detail" data-aos="slide-right" data-aos-duration="3000">
+                <h3>Hi, I'm</h3>
+                <h1>Tar<span>un.</span></h1>
+                <h4>I am a <span class="c1"></span></h4>
+                <p>Hello! I'm <span>Tarun aka Xeno</span>, a Junior student at Netaji Subhas University of Technology. I have a deep passion for coding and I am currently focused on enhancing my skills in DSA. I also take pride in being a content creator on YouTube, where I have built an incredible community of over 115,000 subscribers.</p>
+            </div>
+            <div class="image" data-aos="flip-left">
+                <img src="profile.jpg" style="border-radius:5px;" />
+                <h3>Web Developer</h3>
+                <div class="caption">
+                    <h4>Connect</h4>
+                    <a href="https://www.instagram.com/_imxeno.24_/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tarun-kumar-sharma-7132a122b/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/XENO2410"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Love to design as much as i do.</h3>
-      <p class="contact-message">If yes, then let's have a good chat about it & come up with something new.</p>
-      <a class="btn" href="mailto:tarunsharma605098@gmail.com">CONTACT ME</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- about section-->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="content-section" data-aos="slide-right">
+                <div class="title">
+                    <h1>About Me</h1>
+                </div>
+
+                <div class="content">
+                    <br>
+                    <br>
+                    <p>Hi! I'm <span>Tarun</span>, but you can also call me by my alias, Xeno. I'm currently a Junior student at the esteemed Netaji Subhas University of Technology. 
+                        <br /><br />  My passion for coding knows no bounds, and at present, I'm devoting my efforts to mastering the intricacies of Data Structures and Algorithms.
+                        <br /><br /> Moreover, I take great pride in my role as a content creator on YouTube, where I've been fortunate enough to gather an incredible following of over 115,000 subscribers.
+                        <br /><br />I currently hold the esteemed position of Chairperson at IEEE NSUT, one of the oldest and largest societies at Netaji Subhas University of Technology. Our society boasts a remarkable membership of over 750 individuals, making it a thriving community of like-minded enthusiasts.</p>
+                </div>
+
+                <!-- <div class="social">
+                    <a href="https://github.com/XENO2410"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/tarun-kumar-sharma-7132a122b/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_imxeno.24_/"><i class="fab fa-instagram"></i></a>
+                </div> -->
+            </div>
+            <div class="image-section" data-aos="slide-left">
+                <img src="about.jpg">
+            </div>
+        </div>
     </div>
-  </div>
+    <br>
+    <div class="skills" id="skill-sec">
+        <h1 id="skills">Skills Summary</h1>
+        <div class="icon">
+            <ul> 
+                <li>C++</li>
+                <li>C</li>                
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>MYSQL</li>
+                <li>PYTHON</li>
+                <li>ADOBE PHOTOSHOP</li>
+                <li>ADOBE ILLUSTRATOR</li>
+                <li>ADOBE AFTEREFFECTS</li>
+                <li>ADOBE PREMIERE PRO</li>
+                <li>WONDERSHARE FILMORA</li>
+                <li>ADOBE PREMIERE PRO</li>
+                <li>ADOBE AUDITION</li>                                                    
+                <li>CANVA</li>
+                <li>FIGMA</li>                
+            </ul>
+
+        </div>
+    </div>
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/tarun-kumar-sharma-7132a122b/"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111532.png" alt="/CSS-My site/images/Linkedin.png" width="45px"></a>
-    <a class="footer-link" href="https://github.com/XENO2410"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="/CSS-My site/images/Github.png" width="45px"></a>
-    <a class="footer-link" href="https://www.instagram.com/_imxeno.24_/"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="/CSS-My site/images/Instagram.png" width="45px"></a>
-    <p class="copyright">©2022 <span>Xeno</span></p>
-  </div>
+    <section class="sec" id="PORs">
+        <div class="row">
+            <h2 class="section-heading">POSITION OF RESPONSIBILITY</h2>
+        </div>
+        <div class="row">
+            <div class="column" data-aos="slide-right">
+                <div class="card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <br>
+                    <h3>Chairperson</h3>
+                    <p>
+                        IEEE NSUT Student Branch<br>
+                        <!-- 06/2023 | New Delhi, India<br> -->
+                        <br>
+                        I currently hold the esteemed position of Chairperson at IEEE NSUT, one of the oldest and largest societies at Netaji Subhas University of Technology. Our society boasts a remarkable membership of over 750 individuals, making it a thriving community of like-minded enthusiasts.                    </p>
+                </div>
+            </div>
+            <div class="column" data-aos="slide-left">
+                <div class="card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <br>
+                    <h3>Videography Committee Lead</h3>
+                    <p>
+                        IEEE Delhi Section Student Network<br>
+                        <!-- 06/2022 – 04/2023 | New Delhi, India<br> -->
+                        <br>
+                        Produced high-quality videos for section events, ensuring captivating visual content. Actively engaged in event management, collaborating with cross-functional teams to ensure seamless coordination and successful execution of diverse events.
+                    </p>
+                </div>
+            </div>
+            <div class="column" data-aos="slide-right">
+                <div class="card">
+                    <div class="icon-wrapper">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <br>
+                    <h3>Youtuber</h3>
+                    <p>
+                        With over 7 years of experience as a seasoned Youtuber, I am incredibly grateful to have cultivated an impressive following of over 115,000 dedicated subscribers. Throughout my journey, I have honed my skills and developed a deep understanding of creating captivating content that resonates with my audience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="get" id="contact">
+        <span class="big-circle"></span>
 
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Contact Me..</h3>
+                <p class="text">
+                    I eagerly await your valuable input. Please don't hesitate to reach out and initiate a conversation. Let's engage in an enlightening exchange of ideas and thoughts.
+                </p>
+
+                <div class="info">
+
+                    <div class="information">
+
+                        <p><i class="fas fa-envelope"></i> tarunsharma605098@gmail.com</p>
+                    </div>
+
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with me :</p>
+                    <div class="social-icons">
+
+                        <a href="https://www.instagram.com/_imxeno.24_/">
+            <i class="fab fa-instagram"></i>
+          </a>
+                        <a href="https://www.linkedin.com/in/tarun-kumar-sharma-7132a122b/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="https://formsubmit.co/tarunsharma605098@gmail.com" method="POST" autocomplete="off">
+                    <h3 class="title">Connect with Me!</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" placeholder="Full name" class="input" required />
+
+                        <span>Username</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" placeholder="email" class="input" required />
+
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" placeholder="phone(optional)" name="phone" class="input" />
+
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input" placeholder="Message" name="text" required></textarea>
+
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send" class="btn" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- animate scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+    <!-- typing animation -->
+    <script>
+        var typed = new Typed(".c1", {
+            strings: ["Web developer","Content Creater", "Graphic Designer", "Video Editor" ],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+    <!-- nav links expand -->
+    <script>
+        function fun() {
+            document.getElementById('ul').style.left = "-100%";
+            document.getElementById('lab').style.transform = "rotate(0deg)";
+        }
+
+        function op() {
+            document.getElementById('ul').style.left = "0";
+            document.getElementById('lab').style.transform = "rotate(90deg)";
+            document.getElementById('lab').style.transition = "0.5s";
+        }
+
+        function opp() {
+            if ($("#check").prop('checked') == true) {
+                op()
+            } else {
+                fun();
+            }
+        }
+    </script>
 
 
 
